@@ -31,19 +31,19 @@ Necessary tools for APK patching (`apksigner`, `zipalign`)
 
 6. Run the following command to install the required build tools:
 
-    ```bash
+    ```
     sdkmanager.bat "build-tools;34.0.0"
     ```
 
 7. If you are using a newer Java version (e.g., 21 or later), you may encounter the warning:
 
-    ```text
+    ```
     Java version 17 or higher is required
     ```
 
     To bypass the version check, run:
 
-    ```bash
+    ```
     set SKIP_JDK_VERSION_CHECK=true
     ```
 
