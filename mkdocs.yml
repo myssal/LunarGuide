@@ -3,14 +3,18 @@ site_name: Lunar Tear Installation Guide
 theme:
   name: material
 
+  palette:
+    - scheme: slate
+      primary: black
+      accent: white
+
+  features:
+    - navigation.instant
+    - navigation.sections
+    - search.highlight
+    - content.code.copy
+
 nav:
   - Home: index.md
-  - Folder Layout: folder-layout.md
-  - Prerequisites: prerequisites.md
-  - Step 1 — Prepare Assets: step-1-assets.md
-  - Step 2 & 3 — Master Data: step-2-3-master-data.md
-  - Step 4 — Patch APK: step-4-apk.md
-  - Step 5 & 6 — Server: step-5-6-server.md
-  - Step 7 — Install and Play: step-7-play.md
+  - Installation: installation.md
   - Tailscale Setup: tailscale-setup.md
-  - Quick Reference: quick-reference.md
